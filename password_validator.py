@@ -40,7 +40,7 @@ def validate_password(password):
         print("Password must contain at least one special character")
         return False
 
-    return False
+    return True
 
 if __name__ == '__main__':
     password = input("Input your password: ")
